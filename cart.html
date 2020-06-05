@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    ​<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+     .navbar {
+     
+     border-radius: 0;
+   }
+    #cf1
+	{
+		width: 100%;
+	}
+	.header-info .header-item p {
+    display: inline-block;
+    line-height: 1;
+    
+    color: white;
+  
+} 
+.header-info
+	{
+		background-color: gray;
+	
+	}
+	.header-item
+	{
+		margin-left: 40px;
+	}
+    form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container1 {
+  padding: 20px;
+  
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+   */
+</style>
+</head>
+<body>
+    <nav style="margin-top: -20px;" class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">Freshta Wear </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li ><a href="index.html">Home</a></li>
+              <li><a href="Summer.html">Women</a></li>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="juniors.html">Juniors</a></li>
+            
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="account.html"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+              <li class="active" ><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="header-info">
+        <div id="cf1" class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="header-item">
+                      <img src="delivery.png">
+                      <p>free Shipping on orders over 1000 in Pakistan</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="header-item">
+                      <img src="voucher.png">
+                      <p>20% Student discount</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="header-item">
+                      <img src="sales.png">
+                      <p>30% off dresses Use code 30OFF</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id="boy" style="margin-top: 50px;" class="container j">
+        <h1 class="text-center" id="lp">My Cart</h1> <br>
+        <div style="margin-left: 80px;" class="row">
+          <div class="col-sm-4">
+            <img src="n1.jpg">
+          </div>
+          <div class="col-sm-4">
+            <img src="n3.jpg">
+          </div>
+          <div class="col-sm-4">
+            <img src="n2.jpg">
+          </div>
+        </div>
+      </div>
+      <div id="boy" style="margin-top: 50px;" class="container j">
+     
+        <div  style="margin-left: 80px;" class="row">
+          <div class="col-sm-4">
+            <img src="n4.jpg">
+          </div>
+          <div class="col-sm-4">
+            <img src="n5.jpg">
+          </div>
+          <div class="col-sm-4">
+            <img src="n7.jpg">
+          </div>
+        </div>
+      </div>
+      <div id="boy" style="margin-top: 50px;" class="container j">
+  
+        <div  style="margin-left: 80px;" class="row">
+          <div class="col-sm-4">
+            <img src="n6.jpg">
+          </div>
+          <div class="col-sm-4">
+            <img src="n8.jpg">
+          </div>
+         
+        </div>
+      </div>  
+      <form action="/action_page.php">
+        <div style="margin-top: 90px; margin-bottom: -30px;" class="container1">
+          <h2>Subscribe to our Newsletter</h2>
+        
+        </div>
+      
+        <div class="container" style="background-color:white">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+          </label>
+        </div>
+      
+        <div class="container">
+          <input type="submit" value="Subscribe">
+        </div>
+      </form>
+      <footer style="margin-top: 30px;" class="page-footer font-small special-color-dark pt-4">
+        <div  class="container-fluid">
+          <div class="row">  
+            <div style="background-color: #000000; " class="col-sm-12">  
+         <h3 style="font-size: 28px; font-weight: 900; margin-bottom: 30px; margin-top: 40px;" class="text-center">Follow Us</h3>
+          <!-- Social buttons -->
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1" href="#">
+                <i class="fa fa-facebook-square" style="font-size:48px;color: #4054b2;"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1" href="#">
+                <i class="fa fa-twitter-square" style="font-size:48px;color: #4054b2;"></i>
+              </a>
+            </li>
+          
+          
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1" href="#">
+                <i class="fa fa-instagram" style="font-size:48px;color: #4054b2;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
+      
+        </div>
+       
+      </footer>
+
+      <!-- <div class="row">
+        <div class="col-70">
+          <div class="container1">
+            <form action="/action_page.php">
+            
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+        </div> -->
+        <!-- <div class="col-25">
+          <div class="container1">
+            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+          </div>
+        </div> -->
+      </div>
+      
+</body>
+</html>
